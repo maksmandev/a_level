@@ -88,6 +88,10 @@ string.indexOf("Bad word") // -1
 "Some string".includes("Hello") // false
 ```
 
+### replace
+
+возвращает новую строку с некоторыми или всеми сопоставлениями с шаблоном, заменёнными на заменитель.
+
 ### Получение подстроки:
 
 - str.slice(start [, end])
@@ -278,3 +282,7 @@ const arr2 = [3, 4]
 
 [...arr1, ...arr2]
 ```
+
+## Циклы:
+
+forEach(), map(), filter(), reduce()
